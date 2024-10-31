@@ -48,6 +48,7 @@ if (isset($_SESSION['user_id']) && $_SESSION['role'] == 'superadmin') {
             </a>
         </div>
 
+        
         <?php
 function renderUserTable($role, $bgColor, $textColor) {
     global $conn;
